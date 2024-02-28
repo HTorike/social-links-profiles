@@ -1,0 +1,66 @@
+body {
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+.cont-ex {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 2.5em;
+    border-radius: 10px;
+}
+
+.user {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.links a {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 1em 5.5em 1em 5.5em;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover{
+    background-color: hsl(0, 0%, 30%);
+}
+
+.nome {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.cid-est {
+    font-weight: 600;
+    font-size: 16px;
+    color: hsl(75, 94%, 57%);
+}
+
+.bio {
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin-top: 2em;
+}
